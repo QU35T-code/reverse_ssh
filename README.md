@@ -72,7 +72,7 @@ docker run -p3232:2222 -e EXTERNAL_ADDRESS=<your_external_address>:3232 -e SEED_
 
 Manual:
 ```sh
-git clone https://github.com/NHAS/reverse_ssh
+git clone https://github.com/QU35T-code/reverse_ssh
 
 cd reverse_ssh
 

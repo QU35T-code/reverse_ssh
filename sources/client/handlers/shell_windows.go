@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/ActiveState/termtest/conpty"
-	"github.com/NHAS/reverse_ssh/pkg/logger"
-	"github.com/NHAS/reverse_ssh/pkg/winpty"
+	"github.com/QU35T-code/reverse_ssh/pkg/logger"
+	"github.com/QU35T-code/reverse_ssh/pkg/winpty"
 	"github.com/QU35T-code/reverse_ssh/sources"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/sys/windows"

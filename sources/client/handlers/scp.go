@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NHAS/reverse_ssh/pkg/logger"
+	"github.com/QU35T-code/reverse_ssh/pkg/logger"
 	"golang.org/x/crypto/ssh"
 )
 

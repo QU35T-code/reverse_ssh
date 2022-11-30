@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/NHAS/reverse_ssh/pkg/table"
+	"github.com/QU35T-code/reverse_ssh/pkg/table"
 	"github.com/QU35T-code/reverse_ssh/sources/server/clients"
 	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 	"github.com/QU35T-code/reverse_ssh/sources/terminal/autocomplete"

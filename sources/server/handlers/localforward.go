@@ -7,8 +7,8 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/NHAS/reverse_ssh/pkg/logger"
-	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/pkg/logger"
+	"github.com/QU35T-code/reverse_ssh/sources"
 	"github.com/QU35T-code/reverse_ssh/sources/server/clients"
 	"golang.org/x/crypto/ssh"
 )

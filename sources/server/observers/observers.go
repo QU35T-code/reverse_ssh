@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/NHAS/reverse_ssh/pkg/observer"
+	"github.com/QU35T-code/reverse_ssh/pkg/observer"
 )
 
 type ClientState struct {

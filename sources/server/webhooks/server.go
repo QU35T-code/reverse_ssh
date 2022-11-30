@@ -16,7 +16,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/NHAS/reverse_ssh/pkg/observer"
+	"github.com/QU35T-code/reverse_ssh/pkg/observer"
 	"github.com/QU35T-code/reverse_ssh/sources/server/observers"
 )
 

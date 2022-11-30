@@ -1,4 +1,4 @@
-module github.com/NHAS/reverse_ssh
+module github.com/QU35T-code/reverse_ssh
 
 go 1.17
 

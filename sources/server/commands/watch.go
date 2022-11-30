@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/NHAS/reverse_ssh/pkg/observer"
+	"github.com/QU35T-code/reverse_ssh/pkg/observer"
 	"github.com/QU35T-code/reverse_ssh/sources/server/observers"
 	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 )

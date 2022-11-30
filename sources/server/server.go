@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/NHAS/reverse_ssh/pkg/mux"
-	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/pkg/mux"
+	"github.com/QU35T-code/reverse_ssh/sources"
 	"github.com/QU35T-code/reverse_ssh/sources/server/multiplexer"
 	"github.com/QU35T-code/reverse_ssh/sources/server/webhooks"
 	"github.com/QU35T-code/reverse_ssh/sources/server/webserver"

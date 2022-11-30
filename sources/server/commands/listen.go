@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/NHAS/reverse_ssh/pkg/logger"
-	"github.com/NHAS/reverse_ssh/pkg/mux"
+	"github.com/QU35T-code/reverse_ssh/pkg/logger"
+	"github.com/QU35T-code/reverse_ssh/pkg/mux"
 	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 )
 

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/sources"
 	"github.com/QU35T-code/reverse_ssh/sources/server"
 	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 )

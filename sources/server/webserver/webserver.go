@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/sources"
 	"github.com/QU35T-code/reverse_ssh/sources/server/webserver/shellscripts"
 	"golang.org/x/crypto/ssh"
 )

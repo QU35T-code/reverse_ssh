@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/NHAS/reverse_ssh/pkg/trie"
-	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/pkg/trie"
+	"github.com/QU35T-code/reverse_ssh/sources"
 	"golang.org/x/crypto/ssh"
 )
 
