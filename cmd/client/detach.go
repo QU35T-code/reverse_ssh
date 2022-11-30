@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/NHAS/reverse_ssh/internal/client"
+	"github.com/QU35T-code/reverse_ssh/sources/client"
 )
 
 func Run(destination, fingerprint, proxyaddress string) {

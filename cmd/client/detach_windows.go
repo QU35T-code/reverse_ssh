@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/NHAS/reverse_ssh/internal/client"
+	"github.com/QU35T-code/reverse_ssh/sources/client"
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/debug"
 	"golang.org/x/sys/windows/svc/eventlog"

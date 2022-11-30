@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NHAS/reverse_ssh/internal"
-	"github.com/NHAS/reverse_ssh/internal/server"
-	"github.com/NHAS/reverse_ssh/internal/terminal"
+	"github.com/NHAS/reverse_ssh/sources"
+	"github.com/QU35T-code/reverse_ssh/sources/server"
+	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 )
 
 func printHelp() {
@@ -81,7 +81,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Println(internal.FingerprintSHA256Hex(private.PublicKey()))
+		fmt.Println(sources.FingerprintSHA256Hex(private.PublicKey()))
 		return
 	}
 

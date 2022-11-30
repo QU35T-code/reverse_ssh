@@ -15,7 +15,7 @@ ifndef CGO_ENABLED
 endif
 
 
-LDFLAGS += -X 'github.com/NHAS/reverse_ssh/internal.Version=$(shell git describe --tags)'
+LDFLAGS += -X 'github.com/QU35T-code/reverse_ssh/sources.Version=$(shell git describe --tags)'
 
 LDFLAGS_RELEASE = $(LDFLAGS) -s -w
 
@@ -41,7 +41,7 @@ server:
 .generate_keys:
 	mkdir -p bin
 # Supress errors if user doesn't overwrite existing key
-	ssh-keygen -t ed25519 -N '' -C '' -f internal/client/keys/private_key || true
+	ssh-keygen -t ed25519 -N '' -C '' -f sources/client/keys/private_key || true
 # Avoid duplicate entries
 	touch bin/authorized_controllee_keys
-	@grep -q "$$(cat internal/client/keys/private_key.pub)" bin/authorized_controllee_keys || cat internal/client/keys/private_key.pub >> bin/authorized_controllee_keys
+	@grep -q "$$(cat sources/client/keys/private_key.pub)" bin/authorized_controllee_keys || cat sources/client/keys/private_key.pub >> bin/authorized_controllee_keys

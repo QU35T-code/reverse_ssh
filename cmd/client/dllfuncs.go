@@ -3,7 +3,7 @@
 package main
 
 import "C"
-import "github.com/NHAS/reverse_ssh/internal/client"
+import "github.com/QU35T-code/reverse_ssh/sources/client"
 
 //export VoidFunc
 func VoidFunc() {

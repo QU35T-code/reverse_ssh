@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/NHAS/reverse_ssh/internal/terminal"
+	"github.com/QU35T-code/reverse_ssh/sources/terminal"
 )
 
 var (
